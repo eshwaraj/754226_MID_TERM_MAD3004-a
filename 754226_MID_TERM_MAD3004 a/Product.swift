@@ -13,4 +13,9 @@ class Product
     var Proname : String
     var price: Int
     var Quantity:Int
+    
+    func Init(Prodid:Int,Prodname:String,price:Int,Quantity:Int)
+    {
+        
+    }
 }
