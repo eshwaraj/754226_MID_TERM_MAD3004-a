@@ -17,7 +17,7 @@ class Product :Manufacturer
     
     init()
     {
-        super.init(Manuid: Int, Manuname: String)
+        super.init(Manuid:Int, Manuname: String)
         self.ProId=0
         self.ProName=String()
         self.Price=0

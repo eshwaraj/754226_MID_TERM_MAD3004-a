@@ -10,8 +10,8 @@ import Foundation
 
 class Manufacturer
 {
-    var Manuid:Int
-    var Manuname : String
+    var Manuid:Int!
+    var Manuname : String?
     
     
      init(Manuid:Int,Manuname:String)
