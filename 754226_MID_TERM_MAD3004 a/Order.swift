@@ -24,7 +24,10 @@ class Order
     }
     
     
-    
+    func display()
+    {
+        print(self.OrdId,self.Prod,self.Total,self.OrderDate)
+    }
     
     
 }
