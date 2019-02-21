@@ -9,16 +9,18 @@
 import Foundation
 class Product :Manufacturer
 {
-    var ProId:Int
-    var ProName : String
-    var Price: Int
-    var Quantity:Int
+    var ProId:Int!
+    var ProName : String?
+    var Price: Float!
+    var Quantity:Int!
     
-     init(ProId:Int,ProName:String,Price:Int,Quantity:Int)
+     init(ProId:Int,ProName:String,Price:Float,Quantity:Int)
     {
         self.ProId = ProId;
         self.ProName = ProName;
         self.Price=Price;
         self.Quantity=Quantity;
     }
+    
 }
+

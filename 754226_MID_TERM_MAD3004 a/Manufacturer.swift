@@ -19,4 +19,9 @@ class Manufacturer
         self.Manuid=Manuid;
         self.Manuname=Manuname;
     }
+    
+    
+    
+    
 }
+
