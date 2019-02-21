@@ -12,10 +12,20 @@ class Order
     var OrdId:Int
     var Prod:[Int:String]=[001:"Hard drive",002:"Zip Drive",003:"Floppy Disk",004:"Monitor",005:"iphone"]
     var Total:Float
+    var OrderDate:Int
     
-    init(OrdId:Int)
+    init(OrdId:Int,Total:Float,OrderDate:Int,Prod:[Int:String])
     {
         self.OrdId = OrdId;
-        case dollar=2;
+        self.Prod = Prod;
+        self.Total = Total;
+        self.OrderDate = OrderDate;
+        
     }
+    
+    
+    
+    
+    
 }
+

@@ -37,7 +37,7 @@ class Product :Manufacturer
     }
     override func display() {
         
-    
+    super.display()
     print(self.ProId,self.ProName,self.Price,self.Quantity)
     
 }
