@@ -11,5 +11,12 @@ import Foundation
 class Manufacturer
 {
     var Manuid:Int
-    var Manyname : String
+    var Manuname : String
+    
+    
+     init(Manuid:Int,Manuname:String)
+    {
+        self.Manuid=Manuid;
+        self.Manuname=Manuname;
+    }
 }

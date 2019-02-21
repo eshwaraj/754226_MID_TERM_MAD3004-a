@@ -7,3 +7,15 @@
 //
 
 import Foundation
+class Order
+{
+    var OrdId:Int
+    
+    
+    
+    init(OrdId:Int)
+    {
+        self.OrdId = OrdId;
+        
+    }
+}

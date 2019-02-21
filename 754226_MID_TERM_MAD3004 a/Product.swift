@@ -7,15 +7,18 @@
 //
 
 import Foundation
-class Product
+class Product :Manufacturer
 {
-    var Proid:Int
-    var Proname : String
-    var price: Int
+    var ProId:Int
+    var ProName : String
+    var Price: Int
     var Quantity:Int
     
-    func Init(Prodid:Int,Prodname:String,price:Int,Quantity:Int)
+     init(ProId:Int,ProName:String,Price:Int,Quantity:Int)
     {
-        
+        self.ProId = ProId;
+        self.ProName = ProName;
+        self.Price=Price;
+        self.Quantity=Quantity;
     }
 }
