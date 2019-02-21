@@ -16,6 +16,6 @@ class Order
     init(OrdId:Int)
     {
         self.OrdId = OrdId;
-        
+        case dollar=2;
     }
 }

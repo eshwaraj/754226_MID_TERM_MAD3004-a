@@ -21,7 +21,10 @@ class Manufacturer
     }
     
     
-    
+    func display()
+    {
+        print(self.Manuid,self.Manuname)
+    }
     
 }
 

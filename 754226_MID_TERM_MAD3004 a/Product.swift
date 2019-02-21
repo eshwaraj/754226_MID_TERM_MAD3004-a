@@ -14,13 +14,32 @@ class Product :Manufacturer
     var Price: Float!
     var Quantity:Int!
     
+    
+    init()
+    {
+        super.init(Manuid: Int, Manuname: String)
+        self.ProId=0
+        self.ProName=String()
+        self.Price=0
+        self.Quantity=0
+    }
+    
+    
      init(ProId:Int,ProName:String,Price:Float,Quantity:Int)
     {
+      
+        super.init(Manuid:Int , Manuname: String)
         self.ProId = ProId;
         self.ProName = ProName;
         self.Price=Price;
         self.Quantity=Quantity;
+        
     }
+    override func display() {
+        
+    
+    print(self.ProId,self.ProName,self.Price,self.Quantity)
     
 }
 
+}
